@@ -1,0 +1,15 @@
+.main_container{
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-evenly;
+    align-items: baseline;
+    align-content: space-around;
+    width: 100vw;
+    height: 100vh;
+}
+
+.header{
+    text-align: center;
+    width: 100vw;
+    background-color: blueviolet;
+}
