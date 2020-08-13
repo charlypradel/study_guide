@@ -1,7 +1,7 @@
 .main_container{
     display: flex;
-    flex-flow: row nowrap;
-    justify-content: space-evenly;
+    flex-flow: column nowrap;
+    justify-content: flex-start;
     align-items: baseline;
     align-content: space-around;
     width: 100vw;
@@ -11,5 +11,44 @@
 .header{
     text-align: center;
     width: 100vw;
-    background-color: blueviolet;
+}
+
+.rows{
+    width: 100vw;
+    display: flex;
+    justify-content: space-between;
+    flex-flow: row nowrap;
+    align-items: center;
+}
+
+.modules{
+    width: 6%; 
+    text-align: center;
+    border-right: solid rgb(0, 174, 255);
+    padding: 1em;
+    font-weight: bold;
+}
+
+.semester{
+    width: 12%; 
+    text-align: center;
+    border-right: solid rgb(0, 174, 255);
+    padding: 1em;
+    font: medium bold sans-serif;
+}
+
+.ects{
+    width: 3%;
+    text-align: center;
+    border-right: solid rgb(0, 174, 255);
+    padding: 1em;
+}
+
+.reachedECTS{
+    font-size: smaller;
+    width: 5%; 
+    text-align: center;
+    border-right: solid rgb(0, 174, 255);
+    padding: 1em;
+    font-weight: bold;
 }
